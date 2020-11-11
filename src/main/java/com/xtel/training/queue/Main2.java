@@ -6,10 +6,10 @@ import java.util.Queue;
 public class Main2 {
     public static void main(String[] args) {
         Queue<Integer> numbers = new PriorityQueue<>();
-        numbers.offer(5);
-        numbers.offer(1);
-        numbers.offer(2);
         numbers.offer(4);
+        numbers.offer(3);
+        numbers.offer(2);
+        numbers.offer(1);
         System.out.println("Queue: " + numbers);
 
         int acessNumber = numbers.peek();

@@ -1,7 +1,6 @@
 package com.xtel.training.queue;
 
 import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Queue;
 
 public class Main3 {
@@ -20,3 +19,4 @@ public class Main3 {
         System.out.println("Cap nhat queue" + numbers);
     }
 }
+    
